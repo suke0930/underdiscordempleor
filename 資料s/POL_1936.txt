@@ -1,4 +1,5 @@
-﻿division_template = {
+﻿##steamapps\common\Hearts of Iron IV\history\units
+division_template = {
 	name = "Dywizja Piechoty"		
 	division_names_group = POL_INF_01
 
