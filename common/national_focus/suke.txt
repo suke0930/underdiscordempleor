@@ -1,0 +1,129 @@
+focus_tree = {
+	id = suke
+	continuous_focus_position = { x = 340 y = 920 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SUK
+		}
+	}
+	#suke帝国の再建
+	focus = {
+		id = SUK_sukediguonozaijian
+		icon = GFX_focus_eng_organise_the_blackshirts
+		x = 20
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			
+			
+		}
+	}
+
+	#米か花火か
+	focus = {
+		id = SUK_mikahuahuoka
+		icon = GFX_focus_fra_devalue_the_franc
+		x = 20
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUK_sukediguonozaijian  }
+		select_effect = {
+add_offsite_building = { type = industrial_complex level = 2 }
+
+
+
+
+
+
+}
+	}
+
+	#米を売る
+	focus = {
+		id = SUK_miwomairu
+		icon = GFX_focus_eng_global_defense
+		x = 19
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUK_mikahuahuoka  }
+		mutually_exclusive = { focus = SUK_huahuodejike  }
+		completion_reward = {
+			add_stability = 5
+			
+			
+		}
+	}
+
+	#米の取引の成果
+	focus = {
+		id = SUK_minoquyinnochengguo
+		icon = GFX_focus_jap_pacific_guardian
+		x = 19
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUK_miwomairu  }
+		completion_reward = {
+			
+			
+			
+			
+			add_offsite_building = { type = arms_factory level = 3 }
+			
+			
+			
+		}
+	}
+
+	#花火で集客
+	focus = {
+		id = SUK_huahuodejike
+		icon = GFX_focus_chi_legislative_yuan
+		x = 21
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUK_mikahuahuoka  }
+		mutually_exclusive = { focus = SUK_miwomairu  }
+		completion_reward = {
+			add_political_power = -200
+			
+			
+		}
+	}
+
+	#長岡まつり大花火大会
+	focus = {
+		id = SUK_changgangmaturidahuahuodahui
+		icon = GFX_focus_jap_manchurian_project
+		x = 21
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SUK_huahuodejike  }
+		select_effect = {
+add_manpower = 10000
+
+
+}
+	}
+
+}

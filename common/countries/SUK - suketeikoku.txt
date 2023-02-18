@@ -1,0 +1,28 @@
+capital = 0
+#oob = ""
+set_research_slots = 1
+set_stability = 0
+set_war_support = 0
+set_convoys = 0
+#set_technology = {}
+set_politics = {
+	ruling_party = communism
+	last_election = 1936.1.1
+	election_frequency = 12
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 100
+	neutrality = 0
+}
+
+create_country_leader = {
+	name = "ice"
+	desc = "おいしいアイス"
+	picture = "ice.dds"
+	expire = "1936.1.1"
+	ideology = marxism
+	traits = {}
+}
