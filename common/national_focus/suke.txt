@@ -60,7 +60,7 @@ add_offsite_building = { type = industrial_complex level = 2 }
 		prerequisite = { focus = SUK_mikahuahuoka  }
 		mutually_exclusive = { focus = SUK_huahuodejike  }
 		completion_reward = {
-			add_stability = 5
+			add_stability = -0.05
 			
 			
 		}
