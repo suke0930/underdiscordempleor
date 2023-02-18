@@ -8,7 +8,7 @@ focus_tree = {
 			tag = SUK
 		}
 	}
-	#suke帝国の再建
+	#suke帝国の再建222
 	focus = {
 		id = SUK_sukediguonozaijian
 		icon = GFX_focus_eng_organise_the_blackshirts
