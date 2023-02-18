@@ -1,0 +1,268 @@
+[22:56:39][dlc.cpp:230]: Invalid supported_version in  file: mod/ugc_2195487994.mod line: 7
+[22:56:40][pdx_audiosound_sdl.cpp:84]: For best performance and quality sound files should be in 44.1kHz (peace_summary_message_01)
+[22:56:43][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20bs_cryllic.fnt' does not match previous fontfiles in font 'loadscreen_header'
+[22:56:43][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20bs_cryllic.fnt' does not match previous fontfiles in font 'loadscreen_tip'
+[22:56:46][bitmapfont.cpp:559]: base (21) in 'gfx/fonts/hoi_26mbs_cryllic.fnt' does not match previous fontfiles in font 'vic_36'
+[22:56:47][bitmapfont.cpp:559]: base (13) in 'gfx/fonts/hoi_16mbs_cryllic.fnt' does not match previous fontfiles in font 'hoi_16mbs'
+[22:56:47][bitmapfont.cpp:559]: base (15) in 'gfx/fonts/hoi_18mbs_cryllic.fnt' does not match previous fontfiles in font 'hoi_18mbs'
+[22:56:47][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20b_cryllic.fnt' does not match previous fontfiles in font 'hoi_20b'
+[22:56:47][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20bs_cryllic.fnt' does not match previous fontfiles in font 'hoi_20bs'
+[22:56:47][bitmapfont.cpp:559]: base (13) in 'gfx/fonts/hoi_16typewriter_cryllic.fnt' does not match previous fontfiles in font 'hoi4_typewriter16'
+[22:56:47][bitmapfont.cpp:559]: base (13) in 'gfx/fonts/hoi_16typewriter_inverted.fnt' does not match previous fontfiles in font 'hoi4_typewriter16_inverted'
+[22:56:48][bitmapfont.cpp:559]: base (18) in 'gfx/fonts/hoi_22typewriter_cryllic.fnt' does not match previous fontfiles in font 'hoi4_typewriter22'
+[22:56:48][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20bs_cryllic.fnt' does not match previous fontfiles in font 'hoi_24header'
+[22:56:48][bitmapfont.cpp:559]: base (16) in 'gfx/fonts/hoi_20bs_cryllic.fnt' does not match previous fontfiles in font 'hoi_30header'
+[22:56:48][bitmapfont.cpp:559]: base (21) in 'gfx/fonts/hoi_26mbs_cryllic.fnt' does not match previous fontfiles in font 'hoi_36header'
+[22:56:48][bitmapfont.cpp:559]: base (21) in 'gfx/fonts/hoi_26mbs_cryllic.fnt' does not match previous fontfiles in font 'hoi_26header'
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_gun_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 3. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "cv_plane_gun_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 13. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_range_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 23. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "cv_plane_range_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 31. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_engine_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 39. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_reliability_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 47. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_naval_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 54. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "cv_plane_naval_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 62. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_bomb_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 70. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_tac_bomb_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 80. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_cas_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 91. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "plane_armor_upgrade" in file "common/units/equipment/upgrades/zmm_air_upgrades.txt" line: 101. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_gun_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 3. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_armor_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 13. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_engine_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 21. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ac_engine_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 26. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_reliability_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 31. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_aa_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 36. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_at_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 44. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "tank_art_upgrade" in file "common/units/equipment/upgrades/zmm_land_upgrades.txt" line: 54. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_gun_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 3. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_torpedo_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 13. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_armor_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 20. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_engine_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 27. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "destroyer_engine_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 35. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_reliability_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 42. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "torpedo_ship_reliability_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 48. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_anti_air_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 54. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_ASW_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 60. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "sub_torpedo_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 67. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "sub_stealth_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 73. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "sub_engine_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 79. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "ship_deckspace_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 88. Overriding old.
+[22:56:53][equipment.cpp:1509]: Warning: Found duplicate upgrade "carrier_armor_upgrade" in file "common/units/equipment/upgrades/zmm_naval_upgrades.txt" line: 94. Overriding old.
+[22:56:53][equipment.cpp:1436]: Warning: Found duplicate equipment "amphibious_mechanized_equipment" in file "common/units/equipment/zmm_amphibious_mechanized.txt" line: 3. Overriding old.
+[22:56:53][equipment.cpp:1436]: Warning: Found duplicate equipment "anti_air_equipment" in file "common/units/equipment/zmm_anti_air.txt" line: 3. Overriding old.
+[22:56:53][equipment.cpp:1436]: Warning: Found duplicate equipment "anti_tank_equipment" in file "common/units/equipment/zmm_anti_tank.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "armored_car_equipment" in file "common/units/equipment/zmm_armored_car.txt" line: 5. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "artillery_equipment" in file "common/units/equipment/zmm_artillery.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "rocket_artillery_equipment" in file "common/units/equipment/zmm_artillery.txt" line: 51. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "motorized_rocket_equipment" in file "common/units/equipment/zmm_artillery.txt" line: 97. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "convoy" in file "common/units/equipment/zmm_convoys.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "infantry_equipment" in file "common/units/equipment/zmm_infantry.txt" line: 5. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "mechanized_equipment" in file "common/units/equipment/zmm_mechanized.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "motorized_equipment" in file "common/units/equipment/zmm_motorized.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "strat_bomber_equipment" in file "common/units/equipment/zmm_quad_engine_airframe.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "jet_strat_bomber_equipment" in file "common/units/equipment/zmm_quad_engine_airframe.txt" line: 55. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "transport_plane_equipment" in file "common/units/equipment/zmm_quad_engine_airframe.txt" line: 105. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "ship_hull_carrier" in file "common/units/equipment/zmm_ship_hull_carrier.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "ship_hull_cruiser" in file "common/units/equipment/zmm_ship_hull_cruiser.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "torpedo_cruiser" in file "common/units/equipment/zmm_ship_hull_cruiser.txt" line: 140. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "ship_hull_heavy" in file "common/units/equipment/zmm_ship_hull_heavy.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "ship_hull_light" in file "common/units/equipment/zmm_ship_hull_light.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "ship_hull_submarine" in file "common/units/equipment/zmm_ship_hull_submarine.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "fighter_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "cv_fighter_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 54. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "CAS_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 107. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "cv_CAS_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 158. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "nav_bomber_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 210. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "cv_nav_bomber_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 258. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "jet_fighter_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 308. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "rocket_interceptor_equipment" in file "common/units/equipment/zmm_single_engine_airframe.txt" line: 357. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "support_equipment" in file "common/units/equipment/zmm_support.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "amphibious_tank_equipment" in file "common/units/equipment/zmm_tank_amphibious.txt" line: 5. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "heavy_tank_equipment" in file "common/units/equipment/zmm_tank_heavy.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "heavy_tank_artillery_equipment" in file "common/units/equipment/zmm_tank_heavy.txt" line: 59. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "heavy_tank_destroyer_equipment" in file "common/units/equipment/zmm_tank_heavy.txt" line: 114. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "heavy_tank_aa_equipment" in file "common/units/equipment/zmm_tank_heavy.txt" line: 169. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "light_tank_equipment" in file "common/units/equipment/zmm_tank_light.txt" line: 5. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "gw_tank_equipment" in file "common/units/equipment/zmm_tank_light.txt" line: 60. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "light_tank_artillery_equipment" in file "common/units/equipment/zmm_tank_light.txt" line: 94. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "light_tank_destroyer_equipment" in file "common/units/equipment/zmm_tank_light.txt" line: 149. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "light_tank_aa_equipment" in file "common/units/equipment/zmm_tank_light.txt" line: 205. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "medium_tank_equipment" in file "common/units/equipment/zmm_tank_medium.txt" line: 4. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "medium_tank_artillery_equipment" in file "common/units/equipment/zmm_tank_medium.txt" line: 58. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "medium_tank_destroyer_equipment" in file "common/units/equipment/zmm_tank_medium.txt" line: 113. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "medium_tank_aa_equipment" in file "common/units/equipment/zmm_tank_medium.txt" line: 168. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "modern_tank_equipment" in file "common/units/equipment/zmm_tank_modern.txt" line: 4. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "modern_tank_artillery_equipment" in file "common/units/equipment/zmm_tank_modern.txt" line: 58. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "modern_tank_destroyer_equipment" in file "common/units/equipment/zmm_tank_modern.txt" line: 115. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "modern_tank_aa_equipment" in file "common/units/equipment/zmm_tank_modern.txt" line: 172. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "super_heavy_tank_equipment" in file "common/units/equipment/zmm_tank_super_heavy.txt" line: 4. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "super_heavy_tank_artillery_equipment" in file "common/units/equipment/zmm_tank_super_heavy.txt" line: 58. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "super_heavy_tank_destroyer_equipment" in file "common/units/equipment/zmm_tank_super_heavy.txt" line: 113. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "super_heavy_tank_aa_equipment" in file "common/units/equipment/zmm_tank_super_heavy.txt" line: 168. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "tac_bomber_equipment" in file "common/units/equipment/zmm_twin_engine_airframe.txt" line: 3. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "jet_tac_bomber_equipment" in file "common/units/equipment/zmm_twin_engine_airframe.txt" line: 55. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "heavy_fighter_equipment" in file "common/units/equipment/zmm_twin_engine_airframe.txt" line: 104. Overriding old.
+[22:56:54][equipment.cpp:1436]: Warning: Found duplicate equipment "scout_plane_equipment" in file "common/units/equipment/zmm_twin_engine_airframe.txt" line: 153. Overriding old.
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 31" in file: "history/states/110-Norway.txt" near line: 31
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 31" in file: "history/states/138-Skane.txt" near line: 31
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 28" in file: "history/states/139-Smaland.txt" near line: 28
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 33" in file: "history/states/140-Vaster Gotland.txt" near line: 33
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 31" in file: "history/states/141-Sodermanland.txt" near line: 31
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 43" in file: "history/states/142-Vestlandet.txt" near line: 43
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:54][persistent.cpp:52]: Error: "Unexpected token: add_core_of, near line: 24" in file: "history/states/143-Midt-Noreg.txt" near line: 24
+[22:56:54][statehistory.cpp:164]: Unknown countrytag for suk owner-change in TODO
+[22:56:55][portraitdatabase.cpp:24]: Missing portrait texture in group ITA > Army > Male:  "gfx/leaders/ITA/Portrait_Italy_Generic_land_4.dds".
+[22:56:56][effect.cpp:391]: Invalid effect 'KOS' in common/national_focus/yugoslavia.txt line : 1002
+[22:56:56][effect.cpp:391]: Invalid effect 'KOS' in common/national_focus/yugoslavia.txt line : 1006
+[22:56:56][persistent.cpp:52]: Error: "Unknown effect-type: KOS, near line: 1002
+Unknown effect-type: KOS, near line: 1006" in file: "common/national_focus/yugoslavia.txt" near line: 1009
+[22:56:56][countrytag.cpp:111]: KOS - is not in the tag list
+[22:56:56][history.cpp:261]: Unknown history file in country database - history/countries/KOS - Kosovo.txt
+[22:56:57][trigger.cpp:620]: Invalid trigger 'KOS' in common/achievements.txt line : 3192
+[22:56:57][trigger.cpp:480]: Error: "Unknown trigger-type: KOS, near line: 3192" in file: "common/achievements.txt" near line: 3193
+[22:57:01][history.cpp:261]: Unknown history file in country database - history/countries/KOS - Kosovo.txt
+[22:57:02][country.cpp:7168]: Attempting to set captial state #141 for スウェーデン, they dont own it!
+[22:57:02][country.cpp:7168]: Attempting to set captial state #110 for ノルウェー, they dont own it!
+[22:57:38][pdx_audiosound_sdl.cpp:84]: For best performance and quality sound files should be in 44.1kHz (start_game_02)
+[22:57:39][persistent.cpp:52]: Error: "State has no air base 141: {, near line: 176" in file: "history/units/SWE_1936.txt" near line: 178
+[22:57:39][persistent.cpp:52]: Error: "Unexpected token: =, near line: 178" in file: "history/units/SWE_1936.txt" near line: 181
+[22:57:39][persistent.cpp:52]: Error: "Unexpected token: fighter_equipment_0, near line: 183" in file: "history/units/SWE_1936.txt" near line: 186
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 6050 (Kustflottan)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 6050 (Kustflottan)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 11215 (1a Eskadern)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 11215 (1a Eskadern)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 11215 (Karlskrona Avdelningen)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 11215 (Karlskrona Avdelningen)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 383 (Göteborgs Eskadern)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 383 (Göteborgs Eskadern)
+[22:57:39][persistent.cpp:52]: Error: "State has no air base 110: {, near line: 158" in file: "history/units/NOR_1936.txt" near line: 162
+[22:57:39][persistent.cpp:52]: Error: "Unexpected token: =, near line: 162" in file: "history/units/NOR_1936.txt" near line: 165
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 9296 (1. Sjøforsvarsdistrikt)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 9296 (1. Sjøforsvarsdistrikt)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 122 (2. Sjøforsvarsdistrikt)
+[22:57:39][province.cpp:530]: Trying to move navy to land province with no port: 122 (2. Sjøforsvarsdistrikt)
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-11
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-12
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-13
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-14
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-15
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-16
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-17
+[22:57:39][ship.cpp:1327]: Error while loading save game: history/units/USA_1936_naval_legacy.txt
+ The division name is occupied: USS S-48
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 38
+[22:57:39][resistance.cpp:98]: state 38: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 110
+[22:57:39][resistance.cpp:98]: state 110: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 138
+[22:57:39][resistance.cpp:98]: state 138: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 139
+[22:57:39][resistance.cpp:98]: state 139: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 140
+[22:57:39][resistance.cpp:98]: state 140: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 141
+[22:57:39][resistance.cpp:98]: state 141: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 142
+[22:57:39][resistance.cpp:98]: state 142: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:39][resistance.cpp:386]: set override garrison strength for state with invalid Data = 143
+[22:57:39][resistance.cpp:98]: state 143: occupation is not initialzied
+[22:57:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:46][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:46][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:58][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:58][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:59][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:57:59][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:14][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:14][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:15][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:15][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:16][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:16][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:16][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:16][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:17][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:17][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:18][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:18][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:19][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:19][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:19][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:19][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:20][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:20][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:21][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:21][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:22][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:22][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:22][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:22][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:23][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:23][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:23][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:23][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:24][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:32][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:32][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:38][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:38][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:39][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:56][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:56][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:57][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:59][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:58:59][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:00][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:00][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:01][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:01][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:02][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:02][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:02][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:02][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:03][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:03][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:04][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:04][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:05][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:05][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:05][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:05][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:17][resistance.cpp:566]: called GetOccupationLaw with no occupatin data
+[22:59:17][resistance.cpp:566]: called GetOccupationLaw with no occupatin data

@@ -1,0 +1,86 @@
+capital = 141
+#oob = ""
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.5
+set_convoys = 40
+#set_technology = {}
+set_politics = {
+	ruling_party = fascism
+	last_election = 1936.1.1
+	election_frequency = 9
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 10
+	fascism = 50
+	communism = 30
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "suke"
+	desc = "鯖主"
+	picture = "suke.dds"
+	expire = "1936.1.1"
+	ideology = fascism_ideology
+	traits = {}
+}
+
+create_country_leader = {
+	name = "ice"
+	desc = "おいしいアイス"
+	picture = "ice.dds"
+	expire = "1936.1.1"
+	ideology = leninism
+	traits = {}
+}
+
+create_country_leader = {
+	name = "kuro"
+	desc = "NIKKE勢"
+	picture = "kuro.dds"
+	expire = "1936.1.1"
+	ideology = liberalism
+	traits = {}
+}
+
+create_country_leader = {
+	name = "aben"
+	desc = "画像がナインゴ"
+	picture = "aben.dds"
+	expire = "1936.1.1"
+	ideology = moderatism
+	traits = {}
+}
+
+set_technology = {
+		tech_recon = 1
+		fighter1 = 1
+		interwar_artillery = 1
+		interwar_antiair = 1
+		
+		#doctrines
+		air_superiority = 1
+		
+		mass_assault = 1
+		pocket_defence = 1
+		defence_in_depth = 1
+
+		#electronics
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		mechanical_computing = 1
+
+		#industry
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		fuel_silos = 1
+		construction1 = 1
+		construction2 = 1
+		concentrated_industry = 1
+		concentrated_industry2 = 1
+}
+
