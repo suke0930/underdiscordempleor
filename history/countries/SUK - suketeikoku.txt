@@ -1,5 +1,6 @@
 capital = 141
 #oob = ""
+oob = "SUK_1936"
 set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.5
