@@ -57,30 +57,82 @@ create_country_leader = {
 set_technology = {
 		tech_recon = 1
 		fighter1 = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		
-		#doctrines
-		air_superiority = 1
-		
-		mass_assault = 1
-		pocket_defence = 1
-		defence_in_depth = 1
+		#歩兵装備
+		# infantry_equipment0 = 1
+		# interwar_artillery = 1
+		# interwar_antiair = 1
+		# infantry_weapons2 = 1,
+			# infantry_weapons = 1
+		# infantry_weapons1 = 1
+		# infantry_equipment_0 = 1	
+		# Basic_Infantry_weapons = 1
+		# infantry_weapons0 = 1
+		infantry_weapons = 1 #18年式歩兵銃
+		infantry_weapons1 = 1 #36年 // 
+		tech_mountaineers = 1 #山岳歩兵LV1
+		tech_support = 1 #支援装備
+		tech_engineers = 1 #工兵LV1
+		tech_recon = 1 #偵察LV1
+		transport = 1 #トラック
+		support_weapons = 1 #支援火気
+		gw_artillery = 1 #野戦砲
+		interwar_artillery = 1 #36年 //
+		motorised_infantry = 1 ##トラック？
+	
 
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
+		#海軍
+		early_destroyer = 1 #22年式駆逐艦
+		basic_destroyer = 1 #36   //
+		
+		early_light_cruiser = 1 #22年軽巡洋艦
+		basic_light_cruiser = 1 # //  36
+		
+		early_heavy_cruiser = 1 #22重巡
+		basic_heavy_cruiser = 1 #36
 
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		fuel_silos = 1
-		construction1 = 1
-		construction2 = 1
-		concentrated_industry = 1
-		concentrated_industry2 = 1
+		early_battlecruiser = 1 #22年巡洋戦艦
+		basic_battlecruiser = 1 #36
+
+		early_battleship = 1 #22年式戦艦
+
+		transport = 1 #輸送艦
+		
+		early_carrier = 1 #22年空母
+		basic_carrier = 1 #36
+
+		early_submarine = 1 #22年式潜水管
+		basic_submarine = 1 #36
+
+		#技術
+		electronic_mechanical_engineering = 1 #電子機械工学
+		radio = 1 #無線
+
+		#装甲化舞台
+		gwtank = 1 #前時代的戦車
+		basic_light_tank = 1 #34年式軽戦車
+		
+		#空軍
+		early_fighter = 1 #33年式戦闘機
+		fighter1 = 1 #36
+
+		CAS1 = 1 #36年式CAS
+		
+		naval_bomber1 = 1 #36年式対艦
+
+		early_bomber = 1 #33年式術爆
+		tactical_bomber1 = 1 #術爆36
+
+		heavy_fighter1 = 1 #36年式重戦
+
+		strategic_bomber1 = 1 #略爆36年
+
+		suicide_craft = 1 #桜花
+
+		#ドクトリン
+		formation_flying = 1 #編隊飛行（地上支援）
+
+		trade_interdiction = 1 #貿易防止(貿易破壊)
+
+		superior_firepower = 1 #優勢火力
 }
 
