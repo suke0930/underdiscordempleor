@@ -1,13 +1,19 @@
 ﻿l_english: 
 SUK_sukediguonozaijian:0 "suke帝国の再建"
-SUK_sukediguonozaijian_desc:0 "わが帝国はkairunにより甚大な被害を受けた。第一歩として、国の立て直しから行うべきだろう。"
+SUK_sukediguonozaijian_desc:0 "わが帝国はkairunにより甚大な被害を受けた今こそ再建に取り掛かるべきだ"
 SUK_mikahuahuoka:0 "米か花火か"
-SUK_mikahuahuoka_desc:0 "我々の指導者の特性として、現状より優勢な稲作技術と花火に関するノウハウがある。\nこれらを利用して我々の経済環境を改善することはできないだろうか？"
-SUK_miwomairu:0 "米を輸出する"
-SUK_miwomairu_desc:0 "我が国は多くある米を他国に輸出することに決定した。\n経済的に困窮した農民たちの反発は免れないだろう"
+SUK_mikahuahuoka_desc:0 "我が国は米を多く生産しておりまた,花火が有名であるこれらを使い産業の発展や貿易において優位に立つことはできないのだろうか？"
+SUK_miwomairu:0 "米を売る"
+SUK_miwomairu_desc:0 "我が国は多くある米を主に売ることに決定した\n農民からの多少の反発は免れない"
 SUK_minoquyinnochengguo:0 "米の取引の成果"
-SUK_minoquyinnochengguo_desc:0 "世界に対して安価な「コシヒカリ」を輸出した。これはすばらしい人道支援だろう。ん？コシヒカリは日本産？ちょっと知りませんねぇ"
-SUK_huahuodejike:0 "花火をベースに観光事業"
-SUK_huahuodejike_desc:0 "花火をベースとした国営祭式により、我々は観光大国としての地位を得ることができるだろう。\nついでに指導者が暇だったので長岡を召喚した。"
+SUK_minoquyinnochengguo_desc:0 "日本との米の取引により我が国は多少ましになる程の金を入手したこれを使い国を再成長させよう"
+SUK_huahuodejike:0 "花火で集客"
+SUK_huahuodejike_desc:0 "花火で人を集める"
 SUK_changgangmaturidahuahuodahui:0 "長岡まつり大花火大会"
-SUK_changgangmaturidahuahuodahui_desc:0 "長岡まつり大花火大会を開催し集客や資金集めに成功した。\nいまや移民も少なくない。\nん？長岡は日本の都市？ちょっと知りませんねぇ"
+SUK_changgangmaturidahuahuodahui_desc:0 "長岡まつり大花火大会を開催し集客や資金集めに成功した"
+SUK_aisuwoqiumete:0 "アイスを求めて"
+SUK_aisuwoqiumete_desc:0 "我が国は圧倒的な食糧問題に悩まされている、しかし政権はまるで知らないかのように一部の民族を贔屓しようとしている、今こそ革命の時だ！"
+SUK_lixiangnoxianxian:0 "理想の顕現"
+SUK_lixiangnoxianxian_desc:0 "我々の知る未来は本当に我々の理想郷といえるだろうか？未来は非常に便利であり、コンテンツも豊富であるが、我々の種族に対する迫害は拭えない。\n今の我々なら、その未来の過ちを修正できる。"
+SUK_beiounijiuiwo:0 "北欧に救いを"
+SUK_beiounijiuiwo_desc:0 "今や世界は恐ろしい思想と強大な技術に囲まれ、大国が牛耳っている。\nわれわれではこれらの大国に対抗することは難しいが、4国で手を結べばより兄弟になり我が母国を守れるだろう。\n我々は、彼ら２大北欧国家にそれを教える義務がある。"
