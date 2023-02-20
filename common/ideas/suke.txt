@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+		debug_power = {
+			picture = generic_debug
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 100
+				army_attack_factor = 1000
+				army_speed_factor = 10000
+				
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+
+		hanavi_is_kami = {
+			picture = generic_debug
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			
+			modifier = {
+				conscription = 0.5
+				
+			}
+			rule = {
+			}
+		}
+		}
+
+		
+	
+			
+		
+	}
+
+	
+

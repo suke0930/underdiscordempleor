@@ -119,11 +119,10 @@ add_offsite_building = { type = industrial_complex level = 2 }
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SUK_huahuodejike  }
-		select_effect = {
-add_manpower = 10000
+			completion_reward = {
+				add_ideas = hanavi_is_kami
+			}
 
-
-}
 	}
 
 }

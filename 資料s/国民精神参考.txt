@@ -1,0 +1,45 @@
+ideas = {
+
+	country = {
+		debug_power = {
+			picture = generic_debug #アイコン
+# allowedはゲーム開始時やセーブロード時にのみチェックされるトリガーブロックであり、
+# 主にアイデアを国 (As tag = BHR or original_tag = POL) や DLC (As has_dlc = "One Step Back") 
+# に制限するために使用されます。
+# アイデアの許容値が満たされていない場合、
+# セーブの再読み込みで真にならない限り、選択範囲に表示されることはない。
+# ただし、add_ideasによる手動割り当てでは、このチェックが行われない。
+# しかし、add_ideasによる手動割当はこのチェックを回避します。このチェックは一度だけです!
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {#内戦時にどっちの国につくかを決められるらしい。
+			#has_government = democratic とか？　要詳細収集。
+				always = yes 
+			}
+
+			removal_cost = -1
+			
+			modifier = { #ここが効果
+				industrial_capacity_factory = 1 #工場出力を+100%
+				army_attack_factor = 1 #師団攻撃力を+100%
+				army_speed_factor_for_controller =  1 #師団の速さを+100%
+				breakthrough = 1 #師団回復率+100%
+				dig_in_speed_factor = 1 #塹壕を掘る速さ+100%
+				max_dig_in_factor = 1 #塹壕の最大値を増加？
+			}
+			rule = {
+				can_create_factions = yes #陣営作成を許可
+			}
+		}
+
+		
+		
+		}
+
+		
+
+	}
+
+

@@ -8,6 +8,7 @@ set_convoys = 40
 #set_technology = {}
 
 add_ideas = {
+	debug_power
 	#laws
 	Volunteer_Only
 	partial_economic_mobilisation
