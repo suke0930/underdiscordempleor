@@ -13,17 +13,10 @@ country_event = {
 	fire_only_once = yes	#一プレイに一回しか発生しないおまじない
 	trigger = {
 		#条件分岐
-		tag = SUK		#国指定
-		has_completed_focus = SUK_miwomairu		#このNFを取っていれば
+		has_completed_focus = SUK_huahuodejike		#このNFを取っていれば
 	}
 	option = {
 		name = suke.1.a		#選択肢の名前
-		targeted_modifier = {
-			# Error: "Unknown effect-type: targeted_modifier, near line: 21" in file: "events/SUK.txt" near line: 25
-			#修正する必要あり
-			tag = SUK
-			political_power_gain = 5
-			stability_factor = 0.05
-		}
+		add_ideas = hanavi_is_kami2
 	}
 }

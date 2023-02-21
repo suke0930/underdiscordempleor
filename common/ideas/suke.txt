@@ -1,54 +1,50 @@
 ideas = {
-
 	country = {
 		debug_power = {
 			picture = generic_debug
 			allowed = {
 				always = no
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
 			removal_cost = -1
-			
-			modifier = {
-				industrial_capacity_factory = 100
-				army_attack_factor = 1000
-				army_speed_factor = 10000
-				
-			}
+			add_ideas = hanavi_is_kami
 			rule = {
 				can_create_factions = yes
 			}
 		}
-
 		hanavi_is_kami = {
 			picture = generic_debug
 			allowed = {
 				always = no
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
-			
 			modifier = {
 				conscription = 0.5
-				
 			}
 			rule = {
 			}
 		}
+		hanavi_is_kami2 = {
+			picture = generic_debug
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				# Error: "Unknown effect-type: targeted_modifier, near line: 21" in file: "events/SUK.txt" near line: 25
+				#修正する必要あり
+				tag = SUK
+				political_power_gain = 5
+				stability_factor = 0.05
+			}
+			rule = {
+			}
 		}
-
-		
-	
-			
-		
 	}
-
-	
-
+}
