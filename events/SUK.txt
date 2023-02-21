@@ -1,0 +1,29 @@
+###########################
+#  スケ国のイベント
+###########################
+add_namespace = suke#国の名前
+# Chinese Refuse Concessions
+country_event = {
+	#米の取引の成果
+	#世界に対して安価な「コシヒカリ」を輸出した。これはすばらしい人道支援だろう。ん？コシヒカリは日本産？ちょっと知りませんねぇ
+	id = suke.1	#ID
+	title = suke.1.t	#タイトルのlocation ID
+	desc = suke.1.d	#説明のlocation ID
+	picture = GFX_report_event_chinese_soldiers_01	#画像の参照先
+	fire_only_once = yes	#一プレイに一回しか発生しないおまじない
+	trigger = {
+		#条件分岐
+		tag = SUK		#国指定
+		has_completed_focus = SUK_miwomairu		#このNFを取っていれば
+	}
+	option = {
+		name = suke.1.a		#選択肢の名前
+		targeted_modifier = {
+			# Error: "Unknown effect-type: targeted_modifier, near line: 21" in file: "events/SUK.txt" near line: 25
+			#修正する必要あり
+			tag = SUK
+			political_power_gain = 5
+			stability_factor = 0.05
+		}
+	}
+}

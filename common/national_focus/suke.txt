@@ -1,6 +1,9 @@
 focus_tree = {
 	id = suke
-	continuous_focus_position = { x = -40 y = 3650 } 
+	continuous_focus_position = {
+		x = -40
+		y = 3650
+	}
 	country = {
 		factor = 0
 		modifier = {
@@ -10,6 +13,8 @@ focus_tree = {
 	}
 	#suke帝国の再建
 	focus = {
+		#suke帝国の再建
+		#わが帝国はkairunにより甚大な被害を受けた。第一歩として、国の立て直しから行うべきだろう。
 		id = SUK_sukediguonozaijian
 		icon = GFX_focus_eng_organise_the_blackshirts
 		x = 3
@@ -20,13 +25,14 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			
-			
 		}
 	}
-
 	#米か花火か
 	focus = {
+		# 米か花火か
+		#
+		#我々の指導者の特性として、現状より優勢な稲作技術と花火に関するノウハウがある。
+		#これらを利用して我々の経済環境を改善することはできないだろうか？
 		id = SUK_mikahuahuoka
 		icon = GFX_focus_fra_devalue_the_franc
 		x = 3
@@ -35,20 +41,20 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_sukediguonozaijian  }
+		prerequisite = {
+			focus = SUK_sukediguonozaijian
+		}
 		select_effect = {
-add_offsite_building = { type = industrial_complex level = 2 }
-
-
-
-
-
-
-}
+			add_offsite_building = {
+				type = industrial_complex
+				level = 2
+			}
+		}
 	}
-
 	#米を売る
 	focus = {
+		# 米を輸出する
+		# 我が国は多くある米を他国に輸出することに決定した。\n経済的に困窮した農民たちの反発は免れないだろう
 		id = SUK_miwomairu
 		icon = GFX_focus_eng_global_defense
 		x = 2
@@ -57,38 +63,20 @@ add_offsite_building = { type = industrial_complex level = 2 }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_mikahuahuoka  }
-		mutually_exclusive = { focus = SUK_huahuodejike  }
+		prerequisite = {
+			focus = SUK_mikahuahuoka
+		}
+		mutually_exclusive = {
+			focus = SUK_huahuodejike
+		}
 		completion_reward = {
 			add_stability = -0.05
-			
-			
 		}
 	}
-
-	#米の取引の成果
-	focus = {
-		id = SUK_minoquyinnochengguo
-		icon = GFX_focus_jap_pacific_guardian
-		x = 2
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = SUK_miwomairu  }
-		completion_reward = {
-			
-			
-			
-			
-			add_offsite_building = { type = arms_factory level = 3 }
-			
-			
-			
-		}
-	}
-
+	#米の取引の成果 これもイベントとして実装すべき
+	#focus = {
+	#世界に対して安価な「コシヒカリ」を輸出した。これはすばらしい人道支援だろう。ん？コシヒカリは日本産？ちょっと知りませんねぇ"
+	#}
 	#花火で集客
 	focus = {
 		id = SUK_huahuodejike
@@ -99,72 +87,94 @@ add_offsite_building = { type = industrial_complex level = 2 }
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_mikahuahuoka  }
-		mutually_exclusive = { focus = SUK_miwomairu  }
+		prerequisite = {
+			focus = SUK_mikahuahuoka
+		}
+		mutually_exclusive = {
+			focus = SUK_miwomairu
+		}
 		completion_reward = {
 			add_political_power = -200
-			
-			
 		}
 	}
-
-	#長岡まつり大花火大会
+	#長岡まつり大花火大会 これはイベントとして実装すべき
+	# 長岡まつり大花火大会を開催し集客や資金集めに成功した。
+	#いまや移民も少なくない。\nん？長岡は日本の都市？ちょっと知りませんねぇ"
+	#アイスを求めて
 	focus = {
-		id = SUK_changgangmaturidahuahuodahui
-		icon = GFX_focus_jap_manchurian_project
-		x = 4
+		id = SUK_aisuwoqiumete
+		icon = GFX_focus_spa_the_spanish_miracle
+		x = 0
 		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_huahuodejike  }
-		select_effect = {
-add_manpower = 10000
-
-
-}
-	}
-
-	#アイスを求めて
-	focus = {
-		id = SUK_aisuwoqiumete
-		icon = GFX_focus_spa_the_spanish_miracle
-		x = 4
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
+		prerequisite = {
+			focus = SUK_miwomairu
 		}
-		prerequisite = { focus = SUK_minoquyinnochengguo  } prerequisite = { focus = SUK_changgangmaturidahuahuodahui  }
-		mutually_exclusive = { focus = SUK_lixiangnoxianxian  }
+		prerequisite = {
+			focus = SUK_huahuodejike
+		}
+		mutually_exclusive = {
+			focus = SUK_lixiangnoxianxian
+		}
 	}
-
 	#理想の顕現
 	focus = {
 		id = SUK_lixiangnoxianxian
 		icon = GFX_SUK_lixiangnoxianxian-428
-		x = 2
+		x = 3
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = SUK_miwomairu
+		}
+		prerequisite = {
+			focus = SUK_huahuodejike
+		}
+		mutually_exclusive = {
+			focus = SUK_aisuwoqiumete
+		}
+		select_effect = {
+			#
+		}
+	}
+	#北欧に救いを
+	focus = {
+		id = SUK_beiounijiuiwo
+		icon = GFX_SUK_beiounijiuiwo
+		x = 3
 		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_minoquyinnochengguo  } prerequisite = { focus = SUK_changgangmaturidahuahuodahui  }
-		mutually_exclusive = { focus = SUK_aisuwoqiumete  }
+		prerequisite = {
+			focus = SUK_lixiangnoxianxian
+		}
+		select_effect = {
+			#
+		}
 	}
-
-	#北欧に救いを
+	#テンプレ
 	focus = {
-		id = SUK_beiounijiuiwo
-		icon = GFX_SUK_beiounijiuiwo-262027
-		x = 2
-		y = 5
+		id = SUK_hoge
+		icon = GFX_hoge
+		x = 10
+		y = 0
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = SUK_lixiangnoxianxian  }
+		prerequisite = {
+			focus = SUK_hogr
+		}
+		select_effect = {
+			add_manpower = 10000
+		}
 	}
-
 }
