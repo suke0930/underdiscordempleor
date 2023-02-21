@@ -1,0 +1,33 @@
+﻿###########################
+# Nuclear Bomb Events
+###########################
+add_namespace = nuke_dropped
+# Hidden event to set flag on nuke dropped
+# Nuclear Attack on Tokyo
+news_event = {
+	id = nuke_dropped.7	#イベントIDEA
+	title = nuke_dropped.7.t	#タイトル
+	desc = nuke_dropped.7.d	#詳細
+	picture = GFX_news_event_nuke	#画像の場所
+	is_triggered_only = yes	#条件指定のみ
+	fire_only_once = yes	#一度しか発動しない
+	trigger = {
+		FROM.FROM = {
+			state = 282
+		}
+	}
+	option = {
+		#選択新その一
+		name = nuke_dropped.7.a		#その他の国でプレイしていた場合
+		trigger = {
+			NOT = {
+				owns_state = 282
+			}
+		}
+	}
+	option = {
+		#選択肢その２
+		name = nuke_dropped.7.b		#日本でプレイしている場合
+		owns_state = 282
+	}
+}
