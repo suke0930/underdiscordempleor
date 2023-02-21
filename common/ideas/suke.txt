@@ -48,19 +48,22 @@ ideas = {
 		}
 	}
 #新規NF共産ルート用国民精神開発中
-}
-country = {
-	debug_ice = {
+	registans_of_suke = { #スケ帝国への反乱
 		allowed = {
 			always = no
 		}
 		removal_cost = -1
-		picture = generic_debug
+		picture = limited_conscription
 		modifier = {
-			recruitable_population = 0.05
+			recruitable_population = 0.05 #徴兵人口の増加
+			#共産主義への後押し
+			#安定度 -
 		}
 	}
+
 }
+
+
 
 
 

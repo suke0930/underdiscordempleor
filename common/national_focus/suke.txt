@@ -192,7 +192,7 @@ focus_tree = {
 			focus = SUK_aisuwoqiumete
 		}
 		select_effect = {
-			add_manpower = 10000
+			add_ideas = registans_of_suke
 		}
 	}
 }
