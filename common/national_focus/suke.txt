@@ -177,10 +177,11 @@ focus_tree = {
 			add_manpower = 10000
 		}
 	}
+	#画像が適応されないやり方わからん
 	#新NF　(共産ルート） NF名　suke政権の独裁体制
 	focus = {
 		id = SUK_ice
-		icon = suke_ice-icon-.dds
+		icon = GFX_SUK_iceicon
 		x = 0
 		y = 4
 		cost = 10
