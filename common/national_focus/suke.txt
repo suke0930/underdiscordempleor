@@ -177,18 +177,18 @@ focus_tree = {
 			add_manpower = 10000
 		}
 	}
-	#新NF　(共産ルート）
+	#新NF　(共産ルート） NF名　suke政権の独裁体制
 	focus = {
-		id = SUK_hoge
-		icon = GFX_hoge
-		x = 10
-		y = 0
+		id = SUK_ice
+		icon = suke_ice-icon-.dds
+		x = 0
+		y = 4
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = {
-			focus = SUK_hogr
+			focus = SUK_aisuwoqiumete
 		}
 		select_effect = {
 			add_manpower = 10000
