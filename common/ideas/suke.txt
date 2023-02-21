@@ -47,4 +47,22 @@ ideas = {
 			}
 		}
 	}
+#新規NF共産ルート用国民精神開発中
 }
+ideas = {
+	country = {
+		debug_ice = {
+			allowed = {
+				always = no
+				}
+
+				removal_cost = -1
+
+				picture = generic_debug
+
+				modifier = {
+				recruitable_population 0.05
+			}
+
+
+
