@@ -177,4 +177,21 @@ focus_tree = {
 			add_manpower = 10000
 		}
 	}
+	#新NF　(共産ルート）
+	focus = {
+		id = SUK_hoge
+		icon = GFX_hoge
+		x = 10
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = {
+			focus = SUK_hogr
+		}
+		select_effect = {
+			add_manpower = 10000
+		}
+	}
 }
