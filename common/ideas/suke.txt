@@ -29,6 +29,8 @@ ideas = {
 			}
 		}
 	}
+	<<<<<<<
+	HEAD
 	#新規NF共産ルート用国民精神開発中
 	country = {
 		debug_ice = {
