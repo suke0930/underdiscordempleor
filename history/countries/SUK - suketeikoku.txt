@@ -8,11 +8,12 @@ set_convoys = 40
 #set_technology = {}
 
 add_ideas = {
-	debug_power
+	debug_power 
 	#laws
 	Volunteer_Only
 	partial_economic_mobilisation
 	export_focus
+	registans_of_suke
 }
 
 set_politics = {

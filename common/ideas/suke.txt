@@ -63,13 +63,17 @@ ideas = {
 		allowed = {
 			always = no
 		}
-		removal_cost = -1
+		allowed_civil_war = {
+			always = yes
+		}
 		picture = limited_conscription
 		modifier = {
 			tag = SUK
-			recruitable_population = 0.05			#徴兵人口の増加
+			recruitable_population = 0.05
 			#共産主義への後押し
-			#安定度 -
+			#安定度
+		}
+				rule = {
 		}
 	}
 }
