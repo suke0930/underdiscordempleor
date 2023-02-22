@@ -176,6 +176,10 @@ focus_tree = {
 		select_effect = {
 			add_manpower = 10000
 		}
+		completion_reward = {
+			#国民精神の付与
+			add_ideas = hoge
+		}
 	}
 	#画像が適応されないやり方わからん
 	#新NF　(共産ルート） NF名　suke政権の独裁体制
@@ -191,8 +195,8 @@ focus_tree = {
 		prerequisite = {
 			focus = SUK_aisuwoqiumete
 		}
-		select_effect = {
-			
+		completion_reward = {
+			add_ideas = registans_of_suke
 		}
 	}
 }
