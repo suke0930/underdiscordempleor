@@ -29,8 +29,6 @@ ideas = {
 			}
 		}
 	}
-	<<<<<<<
-	HEAD
 	#新規NF共産ルート用国民精神開発中
 	country = {
 		debug_ice = {
@@ -68,11 +66,10 @@ ideas = {
 		removal_cost = -1
 		picture = limited_conscription
 		modifier = {
+			tag = SUK
 			recruitable_population = 0.05			#徴兵人口の増加
 			#共産主義への後押し
 			#安定度 -
-			>>>>>>>
-			06058bdefac4e8cf29095614724f9c56aa9768cc
 		}
 	}
 }
