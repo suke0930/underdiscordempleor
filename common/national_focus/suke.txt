@@ -191,7 +191,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SUK_aisuwoqiumete
 		}
-		select_effect = {
+		completion_reward = {
 			add_ideas = registans_of_suke
 		}
 	}
