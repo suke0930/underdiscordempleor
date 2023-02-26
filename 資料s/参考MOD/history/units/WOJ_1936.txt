@@ -1,0 +1,510 @@
+division_template = {
+
+
+    name = "wojtek division"
+
+    division_names_group = WOJ_INF_01
+
+    regiments = {
+        infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+	}
+        	support = {
+		engineer = { x = 0 y = 0 }
+    }
+
+}
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 3544
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 100
+		}
+		location = 11411
+		division_template = "wojtek division"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+}	

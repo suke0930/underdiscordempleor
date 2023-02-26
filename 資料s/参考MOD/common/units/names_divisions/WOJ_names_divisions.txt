@@ -1,0 +1,33 @@
+    WOJ_INF_01 = 
+    {
+    name = "wojtek division" 
+    
+    for_countries = { WOJ }
+
+    can_use = { always = yes }
+
+    division_types = { "infantry" }
+
+
+    #link_numbering_with = { WOJ_INF_01 }
+    
+
+    fallback_name = "%d wojtek division"
+    
+    ordered =
+    	{
+		1 = { "%dst wojtek division" }
+		2 = { "%dnd wojtek division" }
+		3 = { "%drd wojtek division" }
+		4 = { "%dth wojtek division" }
+		5 = { "%dth wojtek division" }
+		6 = { "%dth wojtek division" }
+		7 = { "%dth wojtek division" }
+		8 = { "%dth wojtek division" }
+		9 = { "%dth wojtek division" }
+		10 = { "%wojtek division" }
+		100 = { "(SR) wojtek division" }
+
+
+        }
+     }   

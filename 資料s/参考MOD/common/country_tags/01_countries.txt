@@ -1,0 +1,3 @@
+WOJ = "countries/wojtek Kingdom.txt"
+
+SPZ = "countries/spainwojtek.txt"

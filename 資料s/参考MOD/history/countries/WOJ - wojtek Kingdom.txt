@@ -1,0 +1,104 @@
+capital = 10
+oob = "WOJ_1936"
+set_research_slots = 4 
+add_ideas = {
+	wojtek_2_koran
+	wojtek_koran
+	Limited_Conscription
+}
+set_stability = 0.8
+set_war_support = 0.34
+set_convoys = 300
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1	
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+	naval_bomber1 = 1
+	basic_train = 1
+	}
+set_politics = {
+	ruling_party = neutrality
+	last_election = 1936.1.1
+	election_frequency = 1
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 0
+	fascism = 12
+	communism = 12
+	neutrality = 76
+}
+
+
+recruit_character = WOJ_wojtekdayo
+recruit_character = WOJ_wojtekdayo_minshu
+recruit_character = WOJ_wojtekdayo_kyosan
+recruit_character = WOJ_ignacy_moscicki
+recruit_character = WOJ_wladyslaw_sikorski
+recruit_character = WOJ_boleslaw_wieniawa_glugoszowski
+recruit_character = WOJ_wladyslaw_gomulka
+recruit_character = WOJ_maria_koszutska
+recruit_character = WOJ_stanislaw_mikolajczyk
+recruit_character = WOJ_wincenty_witos
+recruit_character = WOJ_wladyslaw_raczkiewicz
+recruit_character = WOJ_boleslaw_piasecki
+recruit_character = WOJ_edward_rydzsmigly
+recruit_character = WOJ_wladyslaw_bortnowski
+recruit_character = WOJ_stanislaw_kopanski
+recruit_character = WOJ_marian_kukiel
+recruit_character = WOJ_jozef_haller
+recruit_character = WOJ_stanislaw_sosabowski
+recruit_character = WOJ_lucjan_zeligowski
+recruit_character = WOJ_kazimierz_sosnkowski
+recruit_character = WOJ_tadeusz_kutrzeba
+recruit_character = WOJ_wladyslaw_anders
+recruit_character = WOJ_roman_abraham
+recruit_character = WOJ_wincenty_kowalski
+recruit_character = WOJ_stefan_frankowski
+recruit_character = WOJ_karol_korytowski
+recruit_character = WOJ_jozef_unrug
+recruit_character = WOJ_xawery_czernicki
+recruit_character = WOJ_jozef_zajac
+recruit_character = WOJ_ludomil_rayski
+recruit_character = WOJ_stanislaw_pawluc
+recruit_character = WOJ_stanislav_maczek
+recruit_character = WOJ_wladyslaw_kalkus
+recruit_character = WOJ_kazimierz_switalski
+recruit_character = WOJ_wanda_wasilewska
+recruit_character = WOJ_tomislaw_lupaszko
+recruit_character = WOJ_zygmunt_buhusz_szysko
+recruit_character = WOJ_roman_dmowski
+recruit_character = WOJ_witold_pilecki
+recruit_character = WOJ_irena_anders
+recruit_character = WOJ_mieczyslaw_michalowicz
+recruit_character = WOJ_boleslaw_bierut
+recruit_character = WOJ_edward_osobka_morawski
+recruit_character = WOJ_jozef_beck
+recruit_character = WOJ_zdzislaw_lubomirski
+recruit_character = WOJ_aleksander_kakowski
+recruit_character = WOJ_stanislaw_radkiewicz
+recruit_character = WOJ_jan_kowalewski
+recruit_character = WOJ_eugeniusz_kwiatkowiski
+recruit_character = WOJ_marian_rejewski
+recruit_character = WOJ_jerzy_rutkowski
+recruit_character = WOJ_karl_albrecht
+recruit_character = WOJ_pavel_bermondt_avalov
+recruit_character = WOJ_anna_andersson
+recruit_character = WOJ_friedrich_christian
+recruit_character = WOJ_rudinger_von_der_goltz
+recruit_character = WOJ_vladislav_korchits
+recruit_character = WOJ_wojtek

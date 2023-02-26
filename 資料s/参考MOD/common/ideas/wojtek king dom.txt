@@ -1,0 +1,92 @@
+ideas = {
+
+
+
+
+    country = {
+        wojtek_aiueo = {
+            name = wojtek_aiueo
+            allowed = {
+            original_tag = WOJ 
+           
+        }
+        available = {
+                always = yes
+    }
+            removal_cost = -1
+
+            picture = generic_monarchist_uprising
+
+            modifier = { 
+            political_power_gain = 2
+            army_core_defence_factor = 0.3
+            army_defence_factor = 0.2
+           	production_speed_arms_factory_factor = 0.2
+            stability_factor = 0.5
+            war_support_factor = 0.3
+            stability_weekly = 0.02
+            war_support_weekly = 0.02
+            conscription_factor = 0.3
+            conscription = 0.3
+            consumer_goods_factor = -0.09
+            experience_gain_army = 0.1
+            experience_gain_air = 0.1
+            experience_gain_navy = 0.1
+
+
+            
+        
+        
+        
+        
+    }
+        }
+    }
+    country = {
+        wojtek_koran = {
+            name = wojtek_koran
+            allowed = {
+            original_tag = WOJ 
+           
+        }
+        available = {
+                always = yes
+    }
+            removal_cost = -1
+
+            picture = generic_army_war_college
+
+            modifier = { 
+                stability_weekly = -0.05
+                political_power_gain = -4
+
+             }
+        }
+    }
+        country = {
+        wojtek_2_koran = {
+            name = wojtek_2_koran
+            allowed = {
+            original_tag = WOJ 
+           
+        }
+        available = {
+                always = yes
+    }
+            removal_cost = -1
+
+            picture = great_depression
+            modifier = { 
+                stability_weekly = -0.1
+                war_support_weekly = -0.1
+                consumer_goods_factor = 0.3
+                army_core_defence_factor = -2
+                production_speed_arms_factory_factor = -0.3
+                mobilization_speed = -0.6
+             }
+        }
+    }
+}   
+
+       
+

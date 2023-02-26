@@ -1,0 +1,583 @@
+add_namespace = wojtek
+country_event = {
+    id = wojtek.1
+    title = wojtek.1.t
+    desc = wojtek.1.d
+    picture = GFX_report_event_soviet_finnish_pact
+is_triggered_only = yes
+  option = {
+      name= wojtek.1.n
+      WOJ={
+ annex_country = {
+          target = PER
+          transfer_troops = yes
+}
+          
+
+      
+
+  }
+  
+	}
+		}
+country_event = {
+    id = wojtek.2
+    title = wojtek.2.t
+    desc = wojtek.2.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.2.n
+        SWE = {
+            annex_country = {
+                target = DEN
+            }
+            annex_country = {
+                target = NOR
+            }
+            annex_country = {
+                target = FIN
+            }
+            activate_decision = form_scandinavia
+        }
+    }
+}
+country_event = {
+    id = wojtek.3
+    title = wojtek.3.t
+    desc = wojtek.3.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.3.n
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.4
+    title = wojtek.4.t
+    desc = wojtek.4.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.4.n
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.5
+    title = wojtek.5.t
+    desc = wojtek.5.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.5.n
+        
+            
+        }
+    }
+     country_event = {
+    id = wojtek.6
+    title = wojtek.6.t
+    desc = wojtek.6.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.6.n
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.7
+    title = wojtek.7.t
+    desc = wojtek.7.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.7.n
+        WOJ = { add_to_faction = LIT }
+        WOJ = { add_to_faction = LAT }
+        WOJ = { add_to_faction = EST }
+        WOJ = { add_to_faction = FIN }
+        WOJ = { add_to_faction = ROM }
+        WOJ = { add_to_faction = BUL }
+        WOJ = { add_to_faction = YUG }
+        WOJ = { add_to_faction = POR }
+        WOJ = { add_to_faction = GRE }
+        WOJ = { add_to_faction = AUS }
+        WOJ = { add_to_faction = HUN }
+
+        
+        LIT = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         LAT = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         EST = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         FIN = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         ROM = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         BUL = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         YUG = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         POR = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         GRE = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+         AUS = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+        HUN = { 
+            set_politics = {
+            ruling_party = democratic
+            }
+            add_popularity = {
+							ideology = democratic
+							popularity = 0.6
+						}
+        }
+        
+            
+        }
+    }
+        country_event = {
+    id = wojtek.8
+    title = wojtek.8.t
+    desc = wojtek.8.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.8.n
+        SPZ = {
+            add_state_core = 165
+            add_state_core = 166
+            add_state_core = 794
+            add_state_core = 167
+            add_state_core = 168
+            add_state_core = 173
+            add_state_core = 169
+            add_state_core = 789
+            add_state_core = 793
+            add_state_core = 176
+            add_state_core = 172
+            add_state_core = 792
+            add_state_core = 790
+            add_state_core = 171
+            add_state_core = 174
+            add_state_core = 791
+            add_state_core = 788
+            add_state_core = 170
+            add_state_core = 41
+            add_state_core = 175
+            transfer_state = 173
+            transfer_state = 168
+            transfer_state = 167
+            transfer_state = 165
+        }
+            SPR = {
+            transfer_state = 166
+            transfer_state= 794
+            transfer_state = 169
+            transfer_state = 789
+            transfer_state = 793
+            transfer_state = 176
+            transfer_state = 172
+            transfer_state = 792
+            transfer_state = 790
+            transfer_state = 171
+            transfer_state = 174
+            transfer_state = 791
+            transfer_state = 788
+            transfer_state = 170
+            transfer_state = 41
+            transfer_state = 175
+            }
+            hidden_effect = {
+                WOJ = {
+                    puppet = SPZ
+                }
+            }
+
+        
+        country_event = {
+							
+							id = wojtek.9
+        }
+        
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.9
+    title = wojtek.9.t
+    desc = wojtek.9.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.9.n  
+        SPZ = {
+					declare_war_on = {
+			target = SPR
+			type = annex_everything
+			
+	}
+		
+
+				}
+                
+               
+    } 
+    }
+     country_event = {
+    id = wojtek.10
+    title = wojtek.10.t
+    desc = wojtek.10.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.10.n 
+        hidden_effect =  { 
+        TUR = {
+            annex_country = {
+                target = BUL
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = YUG
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = GRE
+                transfer_troops = yes
+            }
+            annex_country = {
+                target = ALB
+                transfer_troops = yes
+            }
+            add_state_core = 102
+            add_state_core = 109
+            add_state_core = 45
+            add_state_core = 764
+            add_state_core = 103
+            add_state_core = 104
+            add_state_core = 107
+            add_state_core = 804
+            add_state_core = 105
+            add_state_core = 108
+            add_state_core = 802 
+            add_state_core = 803
+            add_state_core = 106
+            add_state_core = 44
+            add_state_core = 805
+            add_state_core = 211
+            add_state_core = 801
+            add_state_core = 48
+            add_state_core = 212
+            add_state_core = 184
+            add_state_core = 731 
+            add_state_core = 185
+            add_state_core = 47
+            add_state_core = 186
+            add_state_core = 187
+            add_state_core = 164
+            add_state_core = 182
+            add_state_core = 44
+            add_state_core = 805
+            set_cosmetic_tag = BARUKAN_RENNGOU_DAZO
+
+
+            
+        }
+        }
+        
+	}
+		
+
+				}
+                country_event = {
+                    id = wojtek.11
+                    title = wojtek.11.t
+                    desc = wojtek.11.d
+                    picture = GFX_report_event_second_vienna_award_pact
+                
+                    fire_only_once = yes
+                    is_triggered_only = yes
+                
+                    option = {
+                        name = wojtek.11.n  
+                        WOJ = {
+                            transfer_state = 799
+                            transfer_state = 677
+                            transfer_state = 680
+                            transfer_state = 553
+                            transfer_state = 554
+                            add_state_core = 799
+                            add_state_core = 677
+                            add_state_core = 680
+                            add_state_core = 553
+                            add_state_core = 554
+                        
+                        }
+                                
+                               
+                    } 
+                }
+                                country_event = {
+                    id = wojtek.12
+                    title = wojtek.12.t
+                    desc = wojtek.12.d
+                    picture = GFX_report_event_second_vienna_award_pact
+                
+                    fire_only_once = yes
+                    is_triggered_only = yes
+                
+                    option = {
+                        name = wojtek.12.n  
+                        WOJ = {
+                        						declare_war_on = {
+							target = CZE
+							type = annex_everything
+							
+					}
+						declare_war_on = {
+							target = HUN
+							type = annex_everything
+						
+				}
+						declare_war_on = {
+							target = AUS
+							type = annex_everything
+					
+			}
+						declare_war_on = {
+							target = ROM
+							type = annex_everything
+				
+		}
+						declare_war_on = {
+							target = SWI
+							type = annex_everything
+			
+	}
+						declare_war_on = {
+							target = YUG
+							type = annex_everything
+		
+}
+						declare_war_on = {
+							target = BUL
+						type = annex_everything
+	
+}
+						declare_war_on = {
+							target = ALB
+							type = annex_everything
+
+}
+						declare_war_on = {
+							target = GRE
+							type = annex_everything
+
+}
+                        }
+
+                        
+                        }
+                                
+                               
+                    }
+    country_event = {
+    id = wojtek.13
+    title = wojtek.13.t
+    desc = wojtek.13.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.13.n
+        add_political_power = 150
+        
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.14
+    title = wojtek.14.t
+    desc = wojtek.14.d
+    picture = GFX_report_event_second_vienna_award_pact
+
+    fire_only_once = yes
+    is_triggered_only = yes
+
+    option = {
+        name = wojtek.14.n
+        add_offsite_building = { type = industrial_complex level = 18 }
+        add_offsite_building = { type = arms_factory level = 18 }
+        hidden_effect = {
+            			10 = {
+							add_resource = {
+									type = 	Aluminium
+									amount = 75
+								}
+						}
+						10 = {
+							add_resource = {
+									type = 	Tungsten
+									amount = 75
+								}
+						}
+						10 = {
+							add_resource = {
+									type = 	Steel
+									amount = 125
+								}
+						}
+						10 = {
+							add_resource = {
+									type = 	Chromium
+									amount = 75
+								}
+						}
+
+        }
+        
+        
+            
+        }
+    }
+    country_event = {
+    id = wojtek.15
+    title = wojtek.15.t
+    desc = wojtek.15.d
+    picture = GFX_report_event_second_vienna_award_pact
+    trigger = {
+        tag = WOJ
+        WOJ = {
+            has_war_with = GER
+            has_offensive_war = yes
+            controls_state = 64
+            has_completed_focus =WOJ_communism_sensenn_59
+        }
+    }
+
+    fire_only_once = yes
+
+    option = {
+        name = wojtek.15.n
+        WOJ = {
+        annex_country = {
+target = GER
+transfer_troops = yes
+}
+        }
+        
+            
+        }
+    } 
+       
+                               

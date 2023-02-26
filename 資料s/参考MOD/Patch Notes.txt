@@ -1,0 +1,5 @@
+Version = wojtek.1.02
+wojtek.1.0 = リリース
+wojtek.1.01 = 国民精神の追加、弱体化
+wojtek.1.02 = 国民精神の強化、バグの修正
+wojtek.1.03 = 国家方針の内容変更
