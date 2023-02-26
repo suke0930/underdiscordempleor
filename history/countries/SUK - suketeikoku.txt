@@ -13,7 +13,7 @@ add_ideas = {
 	Volunteer_Only
 	partial_economic_mobilisation
 	export_focus
-	registans_of_suke
+	kyousanntekisisou
 }
 
 set_politics = {
