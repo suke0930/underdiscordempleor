@@ -68,7 +68,7 @@ ideas = {
 			picture = limited_conscription
 			modifier = {
 				tag = SUK
-				recruitable_population = 0.05
+				conscription = 0.03
 				#共産主義への後押し
 				#安定度
 			}
