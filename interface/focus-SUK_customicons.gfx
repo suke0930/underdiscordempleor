@@ -1,5 +1,10 @@
 spriteTypes = {
 	##Icon For: 
+	SpriteType = { 
+		name = "GFX_idea_ice_aisuwomotomete"
+		texturefile = "gfx/interface/ideas/ideas_ice_aisuwomotomete.dds"
+	}
+	##Icon For: 
 	SpriteType = {
 		name = "GFX_SUK_iceicon"
 		texturefile = "gfx/interface/goals/GFX_SUK_iceicon.dds"

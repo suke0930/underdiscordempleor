@@ -125,6 +125,9 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SUK_lixiangnoxianxian
 		}
+		completion_reward = {
+			add_ideas = kyousanntekisisou
+		}
 	}
 	#理想の顕現
 	focus = {

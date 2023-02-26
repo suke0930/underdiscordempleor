@@ -1,11 +1,6 @@
 spriteTypes = {	
 
-	##Icon For: ice
-	SpriteType = { 
-		name = "GFX_idea_ice_aisuwomotomete"
-		texturefile = "gfx/interface/ideas/ideas_ice_aisuwomotomete.dds"
-	}
-
+	
 	##remoding
 	spriteType = {
 		name = "GFX_idea_generic_debug"
