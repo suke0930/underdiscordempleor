@@ -104,17 +104,23 @@ focus_tree = {
 	focus = {
 		id = SUK_aisuwoqiumete
 		icon = GFX_focus_spa_the_spanish_miracle
+		prerequisite = { focus = SUK_miwomairu focus = SUK_huahuodejike }
 		x = 0
 		y = 3
 		cost = 10
+		ai_will_do = {
+			factor = 50x
+			modifier = {
+				factor = 1.5
+				has_completed_focus = SUK_miwomairu
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = SUK_huahuodejike
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = SUK_miwomairu
-		}
-		prerequisite = {
-			focus = SUK_huahuodejike
 		}
 		mutually_exclusive = {
 			focus = SUK_lixiangnoxianxian
@@ -124,17 +130,23 @@ focus_tree = {
 	focus = {
 		id = SUK_lixiangnoxianxian
 		icon = GFX_SUK_lixiangnoxianxian-428
+		prerequisite = { focus = SUK_miwomairu focus = SUK_huahuodejike }
 		x = 3
 		y = 3
 		cost = 10
+		ai_will_do = {
+			factor = 50x
+			modifier = {
+				factor = 1.5
+				has_completed_focus = SUK_miwomairu
+			}
+			modifier = {
+				factor = 1.5
+				has_completed_focus = SUK_huahuodejike
+			}
+		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = {
-			focus = SUK_miwomairu
-		}
-		prerequisite = {
-			focus = SUK_huahuodejike
 		}
 		mutually_exclusive = {
 			focus = SUK_aisuwoqiumete

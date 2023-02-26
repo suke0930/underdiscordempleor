@@ -41,39 +41,39 @@ ideas = {
 				recruitable_population = 0.05
 			}
 		}
-	}
-	hanavi_is_kami2 = {
-		allowed = {
-			always = no
+		hanavi_is_kami2 = {
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				tag = SUK
+				political_power_gain = 5
+				stability_factor = 0.05
+			}
+			rule = {
+			}
 		}
-		allowed_civil_war = {
-			always = yes
-		}
-		modifier = {
-			tag = SUK
-			political_power_gain = 5
-			stability_factor = 0.05
-		}
-		rule = {
-		}
-	}
-	#新規NF共産ルート用国民精神開発中
-	registans_of_suke = {
-		#スケ帝国への反乱
-		allowed = {
-			always = no
-		}
-		allowed_civil_war = {
-			always = yes
-		}
-		picture = limited_conscription
-		modifier = {
-			tag = SUK
-			recruitable_population = 0.05
-			#共産主義への後押し
-			#安定度
-		}
-				rule = {
+		#新規NF共産ルート用国民精神開発中
+		registans_of_suke = {
+			#スケ帝国への反乱
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = limited_conscription
+			modifier = {
+				tag = SUK
+				recruitable_population = 0.05
+				#共産主義への後押し
+				#安定度
+			}
+			rule = {
+			}
 		}
 	}
 }
