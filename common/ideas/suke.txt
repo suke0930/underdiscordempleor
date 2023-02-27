@@ -84,7 +84,7 @@ ideas = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = GFX_idea_ice_aisuwomotomete
+			picture = ice_aisuwomotomete
 			modifier = {
 				tag = SUK
 				communism_drift = 0.10
