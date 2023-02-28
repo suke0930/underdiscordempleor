@@ -87,7 +87,7 @@ ideas = {
 			picture = ice_aisuwomotomete
 			modifier = {
 				tag = SUK
-				communism_drift = 0.10
+				communism_drift = 0.05
 				#共産主義への後押し
 				#安定度
 			}

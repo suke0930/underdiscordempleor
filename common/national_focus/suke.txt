@@ -207,6 +207,9 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		available = {
+			communism > 0.6
+		}
 		prerequisite = {
 			focus = SUK_aisuwoqiumete
 		}
