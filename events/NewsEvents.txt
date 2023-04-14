@@ -1,0 +1,31 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.114514
+	title = news.114514.t
+	desc = news.114514.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.114514.a
+		trigger = {
+			NOT = {
+				TAG = suk
+				
+			}
+		}
+	}
+	option = {
+		name = news.114514.b
+		trigger = { TAG = suk }
+	}
+	
+}

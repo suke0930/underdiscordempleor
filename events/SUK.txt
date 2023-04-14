@@ -20,3 +20,28 @@ country_event = {
 		add_ideas = hanavi_is_kami2
 	}
 }
+
+add_namespace = suke
+# Chinese Refuse Concessions
+country_event = {
+	id = suke.12	#ID
+	title = kyousann	#タイトルのlocation ID
+	desc = kyousann2	#説明のlocation ID
+	picture = GFX_report_event_chinese_soldiers_01	#画像の参照先
+	fire_only_once = yes	#一プレイに一回しか発生しないおまじない
+	trigger = {
+		#条件分岐
+		has_completed_focus = SUK_ice2		#このNFを取っていれば
+	}
+	option = {
+		name = この国はは彼らに託そう		#選択肢の名前
+		hold_election = suk
+		ruling_party = communism
+		
+	option = {
+		name = クソコミーがふざけるな！軍を派遣する！		#選択肢の名前
+		add_stability = -0.40
+        add_war_support = -0.30
+	}
+	}
+}
