@@ -217,4 +217,77 @@ focus_tree = {
 			add_ideas = registans_of_suke
 		}
 	}
+	focus = {
+		id = SUK_ice3
+		icon = GFX_goal_generic_civil_war
+		cost = 10
+		prerequisite = {
+			has_government = communism
+		}
+		completion_reward = {
+			country_event = {
+				id = internal_strife.1
+				title = internal_strife.1.title
+				desc = internal_strife.1.desc
+				picture = GFX_evt_communism
+				is_triggered_only = true
+				trigger = {
+					communism_support > 0.5
+				}
+				mean_time_to_happen = {
+					days = 7
+				}
+				option = {
+					name = internal_strife.1.option
+					communist_support = -0.2
+					add_ideas = {
+						internal_strife_ideas
+					}
+					add_country_modifier = {
+						name = internal_strife_modifier
+						duration = 3650
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SUK_ice4
+		icon = SUKE_WAR_IMG
+		cost = 10
+		x = 10
+		y = 10
+		prerequisite = {
+			tag = ROOT
+			has_government = fascism
+		}
+		
+		available = {
+			tag = ROOT
+			has_government = fascism
+			OR = {
+				has_war = no
+				is_civil_war = no
+			}
+		}
+		
+		completion_reward = {
+			start_civil_war = {
+				size = 0.04
+				variant = "communism_fascism"
+			}
+		}
+	}
+	
 }
+
+
+
+
+
+
+	add_ideas = fascist_demagogue_ideas
+	add_timed_idea = {
+		idea = fascist_rallies
+		days = 365
+	}
